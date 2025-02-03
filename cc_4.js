@@ -34,3 +34,14 @@ do {
     responses++; // Simulate user input
     console.log(`Collected response #${responses}`); 
 } while (responses < 3);
+
+
+// Task 5: For...In Loop - Employee Information
+let employee = {
+    name: "Alice",
+    position: "Manager",
+    salary: 75000
+};
+for (let key in employee) {
+    console.log(`${key}: ${employee[key]}`); 
+}
