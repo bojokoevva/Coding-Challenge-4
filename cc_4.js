@@ -1,6 +1,6 @@
 // Task 1: If Statements - Customer Discounts
 
-let purchaseAmount = 150; // Declare a variable for the purchase amount
+let purchaseAmount = 150; 
 if (purchaseAmount > 100) {
     let discount = purchaseAmount * 0.1; // Apply a 10% discount if amount > $100
     purchaseAmount -= discount;
@@ -16,3 +16,12 @@ for (let i = 0; i < sales.length; i++) {
     totalSales += sales[i]; // Calculate total sales
 }
 console.log(`Total sales: $${totalSales}`); 
+
+
+// Task 3: While Loop - Inventory Depletion
+
+let stock = 10; 
+while (stock > 0) {
+    console.log(`Decreasing stock, current stock: ${stock}`); 
+    stock--; // Decrease stock by 1
+}
