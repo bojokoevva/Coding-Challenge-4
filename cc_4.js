@@ -37,6 +37,7 @@ do {
 
 
 // Task 5: For...In Loop - Employee Information
+
 let employee = {
     name: "Alice",
     position: "Manager",
@@ -44,4 +45,12 @@ let employee = {
 };
 for (let key in employee) {
     console.log(`${key}: ${employee[key]}`); 
+}
+
+
+// Task 6: For...Of Loop - Product Listings
+
+let products = ["Laptop", "Mouse", "Keyboard"]; 
+for (let product of products) {
+    console.log(`Product: ${product}`); 
 }
