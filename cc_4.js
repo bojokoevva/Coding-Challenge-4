@@ -25,3 +25,12 @@ while (stock > 0) {
     console.log(`Decreasing stock, current stock: ${stock}`); 
     stock--; // Decrease stock by 1
 }
+
+
+// Task 4: Do...While Loop - Customer Survey
+
+let responses = 0; // Initialize responses to 0
+do {
+    responses++; // Simulate user input
+    console.log(`Collected response #${responses}`); 
+} while (responses < 3);
