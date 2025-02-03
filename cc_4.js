@@ -50,7 +50,13 @@ for (let key in employee) {
 
 // Task 6: For...Of Loop - Product Listings
 
-let products = ["Laptop", "Mouse", "Keyboard"]; 
+let products = ["Laptop", "Mouse", "Keyboard"]; // Array of product names
 for (let product of products) {
     console.log(`Product: ${product}`); 
 }
+
+
+// Task 7: forEach() Method - Order Processing
+
+let orders = [101, 102, 103]; // Array of order IDs
+orders.forEach(order => console.log(`Processing order ID: ${order}`)); // Log each order ID
